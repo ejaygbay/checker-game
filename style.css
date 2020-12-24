@@ -1,5 +1,7 @@
+body {
+  box-sizing: border-box;
+}
 td {
-  background: lightblue;
   height: 40px;
   width: 40px;
 }
@@ -13,8 +15,17 @@ table {
 .color2 {
   background-color: yellow;
 }
-.color1 span {
-  height: 10px;
-  width: 10px;
+.seed {
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.player-one-seed {
   background: black;
+}
+.player-two-seed {
+  background: blue;
 }
